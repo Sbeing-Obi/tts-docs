@@ -18,3 +18,4 @@ changes, we add a new ADR and mark the old one *Superseded*, never edit history.
 | [0005](0005-separate-quartz-docs-vault.md) | Separate Quartz docs vault, portable authoring | Accepted |
 | [0006](0006-finetune-open-base.md) | Build our own model by fine-tuning an open base | Accepted |
 | [0007](0007-indic-multilingual-stack.md) | Indic multilingual stack (IndicF5 + Indic Parler-TTS) | Accepted |
+| [0008](0008-model-microservices-proxy.md) | Run conflicting models as separate services (ProxyEngine) | Accepted |

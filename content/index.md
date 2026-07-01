@@ -23,6 +23,7 @@ Obsidian, on GitHub, and on the published Quartz site.
 - **How-to guides** — task-oriented recipes.
   - [Run the service locally](how-to/run-the-service-locally.md)
   - [Enable IndicF5 (GPU)](how-to/enable-indicf5-gpu.md)
+  - [Add a model as a microservice](how-to/add-a-model-microservice.md)
   - [Run as a platform](how-to/run-as-a-platform.md)
   - [Fine-tune your own voice](how-to/fine-tune-your-voice.md)
   - [Publish the docs site](how-to/publish-the-docs-site.md)
