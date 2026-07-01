@@ -40,6 +40,13 @@ differ wildly). Over budget → HTTP `429` (or an `error` message over the WebSo
 | `TTS_REQUIRE_API_KEY` | off | enforce API keys |
 | `TTS_ADMIN_TOKEN` | — | token required by `/admin/keys` |
 | `TTS_RATE_LIMIT_CPM` | 100000 | characters/min per key |
+| `TTS_CACHE_MAX` | 512 | in-memory audio cache entries (0 disables) |
+
+## Caching
+
+Identical requests (same model, text, voice, format, speed, language) are served from an
+in-memory LRU cache — a hit **skips synthesis** (seconds → ~1ms, $0 compute) and returns
+byte-identical audio. Responses carry `X-Cache: HIT|MISS`. Swap for Redis/CDN at scale.
 
 ## Related
 
