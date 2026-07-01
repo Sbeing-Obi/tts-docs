@@ -38,6 +38,21 @@ Routing: `model=indic` picks IndicF5 for its 11 languages (`hi, bn, te, mr, ta, 
 > [!NOTE]
 > No GPU handy? Validate first on Colab with `notebooks/indicf5_zeroshot.ipynb`.
 
+## Running locally on Windows CPU (demo only)
+
+IndicF5 also runs on Windows CPU for a quick look — no GPU needed:
+
+1. `pip install -r requirements-indic.txt`, then `huggingface-cli login` (paste a Read token).
+2. `TTS_ENABLE_INDICF5=1 uvicorn app.main:app`
+
+The engine auto-patches `torch.compile` (unsupported on Windows) with a thin eager wrapper
+that preserves the checkpoint's `_orig_mod.` prefix, so weights load correctly.
+
+> [!WARNING]
+> On CPU this is **very slow — ~5 minutes per sentence** (RTF ~60). Use it only to *see*
+> cloning work; the response cache makes repeats instant. For any real/real-time use, run on
+> a GPU (Linux), where torch.compile works and it's orders of magnitude faster.
+
 ## Related
 
 - [Voice enrollment reference](../reference/v1-voices.md)
