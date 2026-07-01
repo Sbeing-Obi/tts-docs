@@ -21,14 +21,16 @@ Obsidian, on GitHub, and on the published Quartz site.
 - **Decisions (ADRs)** — the record of architecturally significant choices.
   - [Decision log](adr/index.md)
 - **How-to guides** — task-oriented recipes.
+  - [Run the service locally](how-to/run-the-service-locally.md)
   - [Publish the docs site](how-to/publish-the-docs-site.md)
+- **Reference** — information-oriented API facts.
+  - [POST /v1/audio/speech](reference/v1-audio-speech.md)
 - **Dev-log** — per-session engineering journal (what I did / why / what I learned).
   - [2026-07-01 — Project kickoff](devlog/2026-07-01.md)
 - **Changelog** — what changed and when → [changelog](changelog.md)
 
 _Coming as the build progresses (Diátaxis says: create these when there's something to put in them):_
-- **Tutorials** — learning-oriented guided lessons (Phase 1+)
-- **Reference** — API, config, and schema facts (Phase 1+)
+- **Tutorials** — learning-oriented guided lessons (Phase 2+)
 
 ## How this vault is maintained
 
