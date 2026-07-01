@@ -27,6 +27,7 @@ Obsidian, on GitHub, and on the published Quartz site.
   - [Publish the docs site](how-to/publish-the-docs-site.md)
 - **Reference** — information-oriented API facts.
   - [POST /v1/audio/speech](reference/v1-audio-speech.md)
+  - [WS /v1/realtime (streaming)](reference/v1-realtime.md)
   - [Voice enrollment (/v1/voices)](reference/v1-voices.md)
 - **Dev-log** — per-session engineering journal (what I did / why / what I learned).
   - [2026-07-01 — Project kickoff](devlog/2026-07-01.md)
