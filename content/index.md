@@ -23,12 +23,14 @@ Obsidian, on GitHub, and on the published Quartz site.
 - **How-to guides** — task-oriented recipes.
   - [Run the service locally](how-to/run-the-service-locally.md)
   - [Enable IndicF5 (GPU)](how-to/enable-indicf5-gpu.md)
+  - [Run as a platform](how-to/run-as-a-platform.md)
   - [Fine-tune your own voice](how-to/fine-tune-your-voice.md)
   - [Publish the docs site](how-to/publish-the-docs-site.md)
 - **Reference** — information-oriented API facts.
   - [POST /v1/audio/speech](reference/v1-audio-speech.md)
   - [WS /v1/realtime (streaming)](reference/v1-realtime.md)
   - [Voice enrollment (/v1/voices)](reference/v1-voices.md)
+  - [Platform (auth, keys, usage)](reference/platform-api.md)
 - **Dev-log** — per-session engineering journal (what I did / why / what I learned).
   - [2026-07-01 — Project kickoff](devlog/2026-07-01.md)
 - **Changelog** — what changed and when → [changelog](changelog.md)
