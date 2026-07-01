@@ -21,6 +21,11 @@ recording hours of audio:
 3. Listen. If it already sounds like you → you may not need to fine-tune at all. If timbre
    or prosody is off → proceed to a LoRA fine-tune below.
 
+> [!TIP]
+> A ready-to-run notebook for this lives at `tts-service/notebooks/chatterbox_zeroshot.ipynb`.
+> Upload it to [Google Colab](https://colab.research.google.com) (File → Upload notebook),
+> set Runtime → **T4 GPU**, and run top to bottom.
+
 ## Step 1 — Record your dataset
 
 **Target: 1–2 hours of clean, consistent speech** (≈ 1,000–1,500 clips of 3–10 s).
