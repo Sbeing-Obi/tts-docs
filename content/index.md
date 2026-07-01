@@ -22,6 +22,7 @@ Obsidian, on GitHub, and on the published Quartz site.
   - [Decision log](adr/index.md)
 - **How-to guides** — task-oriented recipes.
   - [Run the service locally](how-to/run-the-service-locally.md)
+  - [Fine-tune your own voice](how-to/fine-tune-your-voice.md)
   - [Publish the docs site](how-to/publish-the-docs-site.md)
 - **Reference** — information-oriented API facts.
   - [POST /v1/audio/speech](reference/v1-audio-speech.md)

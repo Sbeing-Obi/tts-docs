@@ -17,3 +17,4 @@ and the project aims to follow [Semantic Versioning](https://semver.org/).
 - **Phase 0 — docs:** `tts-docs` Obsidian vault + Quartz project. Seeded decision log (ADR-0001…0005), the "How modern codec-LM TTS works" explanation note, four authoring templates, and the portable-authoring convention.
 - **Phase 0 — publish:** Quartz v5 wired to `content/` with `quartz.config.yaml`, a GitHub Actions deploy workflow, and a how-to for publishing the site.
 - **Phase 1 — voice:** OpenAI-compatible `POST /v1/audio/speech` backed by a CPU `KokoroEngine` (kokoro-onnx). Model-agnostic `TTSEngine` interface, WAV/PCM output, engine registry, and pytest coverage. First audio generated with zero GPU.
+- **Direction:** decided to build our own model by fine-tuning Chatterbox (MIT) on the user's own recorded voice via LoRA (ADR-0006); added the fine-tuning playbook how-to.

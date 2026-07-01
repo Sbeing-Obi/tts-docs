@@ -16,3 +16,4 @@ changes, we add a new ADR and mark the old one *Superseded*, never edit history.
 | [0003](0003-realtime-first-architecture.md) | Optimize for real-time streaming first | Accepted |
 | [0004](0004-both-cloning-tiers.md) | Support both cloning tiers (zero-shot first) | Accepted |
 | [0005](0005-separate-quartz-docs-vault.md) | Separate Quartz docs vault, portable authoring | Accepted |
+| [0006](0006-finetune-open-base.md) | Build our own model by fine-tuning an open base | Accepted |
